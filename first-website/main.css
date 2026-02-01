@@ -1,0 +1,32 @@
+
+body {
+    background-color:rgb(224, 178, 235);
+    font-size: 25px;
+}
+
+p{
+    background-color:aquamarine;
+    /* border is a shorthand property for border-width, border-style, and border-color */
+    border: 10px groove blue;
+    text-align:right;
+    padding: 10px 50px 70px 90px;
+    /* 1 value = all sides
+    2 values: 1st value = top/bottom, 2nd value = left/right
+    4 values: 1st value top, 2nd = right, 3rd= bottom, 4th = left*/
+    margin: 50px 50px 50px 90px;
+}
+
+h1{
+    color: rgb(45, 42, 88);
+    text-align:center;
+    padding: 20px;
+}
+/* we preface classes with . and ids with # */
+.special {
+    background-color:rgb(153, 220, 220);
+    font-size: 40px;
+    border-radius: 100%;
+}
+.center-text {
+    text-align:center;
+}
