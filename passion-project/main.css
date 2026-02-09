@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(183, 139, 95);
+}
+h1{
+    text-align:center;
+    font-size: 70px;
+}
+h3{
+    font-size: 20px;
+    text-align:center;
+}
+h4 {
+    text-align: center;
+    
+}
+.button {
+    background-color:rgb(70, 55, 51);
+    color:white;
+    border: none;
+    border-radius: 7px;
+    font-size: 40px;
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+.button:hover {
+    background-color:rgb(40, 31, 29);
+}
+header {
+    padding: 50px;
+    text-align: center;
+}
+.p1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.center {
+    justify-content: center;
+}
