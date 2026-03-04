@@ -1,0 +1,9 @@
+body {
+    background-color:rgb(5, 17, 31);
+    background-image: url(file:///Users/elspethstevenson/Desktop/manyfinalstar.png);
+}
+.end {
+     position:relative;
+    top: 600px;
+    left: 800px;
+}

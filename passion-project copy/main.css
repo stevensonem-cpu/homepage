@@ -54,3 +54,24 @@ p {
     border-radius: 20px;
     padding: 30px;
 }
+.map {
+    position:relative;
+    width: 700px;
+}
+.circle {
+    background-color:aqua;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display:inline-block;
+    position:absolute;
+    opacity: .5;
+}
+.stark {
+    top: 226px;
+    left: 276px;
+}
+.baratheon {
+    bottom: 200px;
+    right: 249px;
+}

@@ -1,0 +1,34 @@
+* {
+    box-sizing:border-box;
+}
+.content-box {
+    background-color:firebrick;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 5px solid blueviolet;
+    margin: 50px;
+}
+.border-box {
+    background-color: firebrick;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 5px solid blueviolet;
+    margin: 50px;
+    box-sizing: border-box;
+}
+.box {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    border: 2px solid darkcyan;
+    padding: 10px;
+}
+
+.relative {
+    background-color:aqua;
+    position:relative;
+    
+}

@@ -1,0 +1,25 @@
+
+body {
+    background-color:rgb(5, 17, 31);
+    background-image: url(file:///Users/elspethstevenson/Desktop/manystar1.png);
+}
+.starone {
+    position:relative;
+    top: 50px;
+    left: 300px;
+}
+.starduo {
+    position:relative;
+    top: 800px;
+    left: 1300px;
+}
+.startree {
+    position:relative;
+    top: 500px;
+    left: 600px;
+}
+.starfye {
+    position:relative;
+    top: 80px;
+    left: 1300px;
+}

@@ -1,0 +1,61 @@
+
+   * {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+}
+
+
+
+.container {
+    background-color:rgb(99, 191, 224);
+    height:100vh;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+
+
+.box {
+    top: 630px;
+    left: 500px;
+    position:absolute;
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+
+.mover img{
+    animation:move calc(8s * var(--i)) linear infinite;
+    opacity: .6;
+    max-width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+@keyframes move {
+    0%{
+        transform: translateX(-100%) 
+    }
+    100%{
+        transform: translateX(100%)
+    }
+}
+.stick {
+    background-color:rgb(90, 69, 48);
+    width: 9px;
+    height: 271px;
+    position:relative;
+    top: 715px;
+    left: 583px;
+
+}
