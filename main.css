@@ -13,10 +13,12 @@ h2 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(61, 13, 29);
+    top: 50px;
 }
 div {
     text-align:center;
     position: relative;
     font-size: 20px;
     justify-content: space-evenly;
+    top: 50px;
 }
