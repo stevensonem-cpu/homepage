@@ -1,0 +1,38 @@
+html {
+    background-color: #FAF3DD;
+}
+@font-face {
+    font-family: hillside;
+    src: url(fonts/Hillside\ Sans\ copy.otf);
+}
+li {
+    font-family: hillside, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color:#5E6472;
+}
+a {
+    color:#5E6472;
+    text-decoration: none;
+    
+}
+a:hover {
+    color:#5E6472;
+    text-decoration: none;
+    font-size: 105px;
+    
+}
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+p {
+    display:flexbox;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
