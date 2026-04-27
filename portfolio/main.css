@@ -1,5 +1,5 @@
 html {
-    background-color: #FAF3DD;
+    background-color: #f7f2e2;
 }
 @font-face {
     font-family: hillside;
@@ -9,15 +9,15 @@ li {
     font-family: hillside, sans-serif;
     font-size: 100px;
     text-align: center;
-    color:#5E6472;
+    color:#072684;
 }
 .name {
-    color:#5E6472;
+    color:#2f4ca2;
     text-decoration: none;
     
 }
 .name:hover {
-    color:#5E6472;
+    color:#2f4ca2;
     text-decoration: none;
     font-size: 105px;
     
@@ -38,12 +38,17 @@ p {
 }
 h1 {
     font-family: hillside, sans-serif;
-    color:#5E6472;
+    color:#2f4ca2;
+    text-align: center;
+}
+h2 {
+    font-family: hillside, sans-serif;
+    color:#2f4ca2;
     text-align: center;
 }
 .workcontact {
     text-decoration:underline;
-    color:#5E6472;
+    color:#2f4ca2;
 }
 .carousel {
     margin:10px auto;
@@ -83,17 +88,30 @@ h1 {
     font-size: 60px;
     text-align: center;
     justify-content: center;
-    color:#5E6472;
+    color:#2f4ca2;
     position: absolute;
     margin: 300px auto;
     width: 100%;
     
 }
+
 .photos {
-    max-width: 800px;
-    margin: 40px auto 60px auto;
-    padding: 30px;
-    border-radius: 0px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.oo {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.oo:hover {
+    transform: scale(1.1);
 
 }
