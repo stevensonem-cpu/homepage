@@ -11,12 +11,12 @@ li {
     text-align: center;
     color:#5E6472;
 }
-a {
+.name {
     color:#5E6472;
     text-decoration: none;
     
 }
-a:hover {
+.name:hover {
     color:#5E6472;
     text-decoration: none;
     font-size: 105px;
@@ -34,5 +34,66 @@ p {
     font-size: 30px;
     margin-left: 400px;
     margin-right: 400px;
+
+}
+h1 {
+    font-family: hillside, sans-serif;
+    color:#5E6472;
+    text-align: center;
+}
+.workcontact {
+    text-decoration:underline;
+    color:#5E6472;
+}
+.carousel {
+    margin:10px auto;
+    width: 90%;
+    height: 700px;
+    display: flex;
+    overflow-x:auto;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 7s infinite linear;
+    padding-right: 1em;
+}
+.card {
+    flex: 0 0 5em;
+    height: 600px;
+    padding: 1em;
+    border-radius: .2em;
+    text-align:center;
+    align-content:center;
+}
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+.contact {
+    display: flex;
+    height: 100px;
+    border-radius: .2em;
+    font-family: hillside, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    color:#5E6472;
+    position: absolute;
+    margin: 300px auto;
+    width: 100%;
+    
+}
+.photos {
+    max-width: 800px;
+    margin: 40px auto 60px auto;
+    padding: 30px;
+    border-radius: 0px;
+    box-sizing: border-box;
 
 }
